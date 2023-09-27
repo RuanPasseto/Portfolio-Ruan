@@ -23,7 +23,7 @@ export function Contact(){
     setMessage('')
   }
 
-  const form = useRef()
+  const form: any = useRef()
 
   const handleSendEmail = (e:any) => {
     e.preventDefault();
