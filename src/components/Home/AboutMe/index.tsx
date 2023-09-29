@@ -38,24 +38,27 @@ export function AboutMe(){
             <div className=" relative right-6 w-4 h-4 bg-violet-50 border-2 border-zinc-700 rounded-full"/>
               <h2 className="font-semibold text-lg font-sans">Eu</h2>
               <p className="text-sm">
-                Um textinho fera sobre mim Um textinho fera sobre mim Um textinho fera sobre mim
-                Um textinho fera sobre mim Um textinho fera sobre mim Um textinho fera sobre mim
+              Dentro do mundo do desenvolvimento desde setembro de 2020. 
+              Sempre com vontade de aprender novas tecnologias e enfrentar novos desafios
+              
+              </p>
+            </div>
+            
+            <div className="pl-4">
+            <div className=" relative right-6 w-4 h-4 bg-violet-50 border-2 border-zinc-700 rounded-full"/>
+              <h2 className="font-semibold text-lg font-sans">Dev FrontEnd</h2>
+              <p className="text-sm">
+                Desenvolvedor FrontEnd com foco no desenvolvimento web a tendo desenvolvido projetos em Typescript e JavaScript no frontEnd
+                utilizando ReactJs, Next.js, HTML e CSS e também no BackEnd com Node.js. Buscando sempre utilizar o maximo de meu conhecimento
+                e habilidades para desenvolver meus projetos com a maior qualidade possivel.
               </p>
             </div>
             <div className="pl-4">
             <div className=" relative right-6 w-4 h-4 bg-violet-50 border-2 border-zinc-700 rounded-full"/>
-              <h2 className="font-semibold text-lg font-sans">Eu</h2>
+              <h2 className="font-semibold text-lg font-sans">Estudande</h2>
               <p className="text-sm">
-                Um textinho fera sobre mim Um textinho fera sobre mim Um textinho fera sobre mim
-                Um textinho fera sobre mim Um textinho fera sobre mim Um textinho fera sobre mim
-              </p>
-            </div>
-            <div className="pl-4">
-            <div className=" relative right-6 w-4 h-4 bg-violet-50 border-2 border-zinc-700 rounded-full"/>
-              <h2 className="font-semibold text-lg font-sans">Eu</h2>
-              <p className="text-sm">
-                Um textinho fera sobre mim Um textinho fera sobre mim Um textinho fera sobre mim
-                Um textinho fera sobre mim Um textinho fera sobre mim Um textinho fera sobre mim
+                Cursando o 4° semestre de Engenharia de software, aprendendo tambem React Native para desenvolvimentomobile e tambem estudando
+                sobre UI/UX Design para melhorar a qualidade dos meus projetos.
               </p>
             </div>
           </div>

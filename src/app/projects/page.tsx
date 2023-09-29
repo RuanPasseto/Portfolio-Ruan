@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 
 import { Button } from "@/components/Button";
-import { Accordion } from "@/components/Projects/Accordion";
 
 export default function Projects(){
   return(
@@ -20,7 +19,7 @@ export default function Projects(){
               Desenvolvido utilizando TypeScript, Node.Js, Postgresql, ReactJs e Next.js 
             </p>
             <Button variant="ghost" className="rounded-lg underline text-blue-600">
-              <a href="https://github.com/RuanPasseto/Tic-Creche">Meu projeto aqui</a>
+              <a href="https://github.com/RuanPasseto/Tic-Creche" target="_blank">Meu projeto aqui</a>
             </Button>
           </div>
           <div className="border-b-2 border-zinc-800 mx-10 lg:mx-20 w-auto"/>

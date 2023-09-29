@@ -9,8 +9,10 @@ import LandingPage from "@/components/Home/LandingPage";
 export default function Home() {
   return (
     <>
-   <LandingPage/>
-   <div id="#about-me">
+    <div id="home" >
+    <LandingPage/>
+    </div>
+   <div id="about-me">
     <AboutMe />
    </div>
    <div id="contact">
