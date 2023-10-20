@@ -50,7 +50,7 @@ export function Contact(){
 
 
   return (
-    <div>
+    <div className="mt-96">
       <h1 className="font-bold font-sans text-2xl lg:ml-10 mb-8 lg:text-3xl self-start">Fale comigo</h1>
       <div className="flex flex-col gap-6 justify-start items-center pb-20 p-5">
         <div className="flex flex-col gap-5 w-full justify-center items-center lg:max-w-[50%] lg:items-center">

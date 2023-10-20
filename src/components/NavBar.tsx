@@ -10,7 +10,7 @@ export function NavBar(){
   const [navBarOpen, setNavBarOpen] = useState(false)
   return(
     <div className="h-20 flex px-4 lg:px-12 py-2 shadow-lg fixed w-full bg-stone-300 z-20">
-      <img src="logo2.png" alt="logo"/>
+      <img src="logo3.png" alt="logo"/>
       <div className="flex lg:hidden ml-auto items-center">
         <Collapsible.Root onOpenChange={setNavBarOpen}>
           <Collapsible.Trigger asChild>

@@ -1,7 +1,10 @@
+'use client'
 import { Button } from "@/components/Button";
+import { useRouter } from "next/navigation";
 
 /* eslint-disable @next/next/no-img-element */
 export default function LandingPage(){
+  const router = useRouter()
   return(
     <div className=" flex flex-col justify-center items-center h-screen gap-6 lg:grid grid-cols-2 ">
     <div className="hidden lg:flex justify-center items-center">
@@ -14,10 +17,8 @@ export default function LandingPage(){
       Aqui você encontra um pouco da minha jornada e meu Portifolio
     </p>
     <div className="flex flex-col gap-6 lg:flex-row">
-    <Button variant="outline">
-      Sobre Mim
-    </Button>
-    <Button variant="primary">
+
+    <Button onClick={() => router.push('/projects')} variant="primary">
       Conheça meus Projetos
     </Button>
     </div>
