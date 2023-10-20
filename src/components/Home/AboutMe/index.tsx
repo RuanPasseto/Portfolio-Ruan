@@ -53,7 +53,7 @@ export function AboutMe(){
 
             <div className="pl-4">
             <div className=" relative right-6 w-4 h-4 bg-violet-50 border-2 border-zinc-700 rounded-full"/>
-              <h2 className="font-semibold text-lg font-sans">Estudande</h2>
+              <h2 className="font-semibold text-lg font-sans">Estudante</h2>
               <p className="text-sm">
               Cursando o 4º semestre de Engenharia de Software, aprendendo também React Native para desenvolvimento mobile e 
               também estudando sobre UI/UX Design para melhorar a qualidade dos meus projetos.
